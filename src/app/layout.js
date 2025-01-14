@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="author" content="Laralink" />
-        <link rel="icon" href="/images/favicon.ico" sizes="any" />
-        <title>Arino Creative Agency Next JS Template</title>
+        <link rel="icon" href="/images/fav.png" sizes="64x64 96x96 128x128" />
+        <title>FX Squad</title>
       </head>
       <body className={`${openSans.variable} ${poppins.variable}`}>
         <Header />

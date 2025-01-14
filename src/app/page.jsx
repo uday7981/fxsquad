@@ -48,25 +48,25 @@ const funfaceData = [
 // Portfolio Data
 const portfolioData = [
   {
-    title: 'Colorful Art Work',
+    title: 'Industry Pioneers',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_1.jpeg',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Innovative Solutions',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_2.jpeg',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Tailored for You​',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_0.jpg',
   },
   {
-    title: 'Colorful Art Work',
+    title: 'Trust and Reliability',
     subtitle: 'See Details',
     href: '/portfolio/portfolio-details',
     src: '/images/portfolio_3.jpeg',
@@ -282,8 +282,8 @@ export default function Home() {
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Why Choose FXSQUAD"
+            subtitle="Why Choose Us"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
@@ -293,7 +293,7 @@ export default function Home() {
       {/* End Portfolio Section */}
 
       {/* Start Awards Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_2">
         <Div className="cs-shape_2">
           <Div />
@@ -313,11 +313,11 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Awards Section */}
 
       {/* Start Video Block Section */}
-      <Spacing lg="130" md="70" />
+      {/* <Spacing lg="130" md="70" />
       <Div className="container">
         <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
           Our agile process is ability to adapt and respond to change. Agile
@@ -328,11 +328,11 @@ export default function Home() {
           videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
           bgUrl="/images/video_bg.jpeg"
         />
-      </Div>
+      </Div> */}
       {/* End Video Block Section */}
 
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
@@ -342,15 +342,15 @@ export default function Home() {
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
-      <TestimonialSlider />
+      {/* <TestimonialSlider /> */}
       {/* End Testimonial Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="cs-shape_wrap_4">
         <Div className="cs-shape_4"></Div>
         <Div className="cs-shape_4"></Div>
@@ -372,12 +372,12 @@ export default function Home() {
             </Div>
           </Div>
         </Div>
-      </Div>
+      </Div> */}
       {/* End Blog Section */}
 
       {/* Start MovingText Section */}
       <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
+      <MovingText text="Join The FX Squad Journey" />
       <Spacing lg="105" md="70" />
       {/* End MovingText Section */}
 
