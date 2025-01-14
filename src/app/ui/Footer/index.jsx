@@ -73,7 +73,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
               <Div className="cs-footer_item">
                 <Newsletter
                   title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+                  subtitle="Your journey to Forex excellence begins here at FXSQUAD."
                   placeholder="example@gmail.com"
                 />
               </Div>

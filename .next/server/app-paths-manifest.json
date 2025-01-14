@@ -1,27 +1,3 @@
 {
-  "/about/page": "app/about/page.js",
-  "/architecture-agency/page": "app/architecture-agency/page.js",
-  "/_not-found": "app/_not-found.js",
-  "/blog/page": "app/blog/page.js",
-  "/blog/[blogId]/page": "app/blog/[blogId]/page.js",
-  "/case-study-showcase/page": "app/case-study-showcase/page.js",
-  "/creative-portfolio/page": "app/creative-portfolio/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/case-study/[caseStudyId]/page": "app/case-study/[caseStudyId]/page.js",
-  "/creative-solution/page": "app/creative-solution/page.js",
-  "/digital-agency/page": "app/digital-agency/page.js",
-  "/faq/page": "app/faq/page.js",
-  "/marketing-agency/page": "app/marketing-agency/page.js",
-  "/freelancer-agency/page": "app/freelancer-agency/page.js",
-  "/personal-portfolio/page": "app/personal-portfolio/page.js",
-  "/page": "app/page.js",
-  "/photography-agency/page": "app/photography-agency/page.js",
-  "/showcase-portfolio/page": "app/showcase-portfolio/page.js",
-  "/portfolio/page": "app/portfolio/page.js",
-  "/service/[serviceDetailsId]/page": "app/service/[serviceDetailsId]/page.js",
-  "/service/page": "app/service/page.js",
-  "/portfolio/[portfolioDetailsId]/page": "app/portfolio/[portfolioDetailsId]/page.js",
-  "/team/page": "app/team/page.js",
-  "/team/[teamDetailsId]/page": "app/team/[teamDetailsId]/page.js",
-  "/video-showcase/page": "app/video-showcase/page.js"
+  "/page": "app/page.js"
 }

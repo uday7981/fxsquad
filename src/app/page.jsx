@@ -79,6 +79,12 @@ export default function Home() {
       {/* Start Hero Section */}
       <Hero
         title="Effective <br/> Technical <br/> Solutions in the <br/> Forex Market"
+        style={{
+          fontSize: '120px',
+          fontWeight: 700,
+          marginBottom: '60px',
+          lineHeight: '1.25em'
+        }}
         subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
         btnText="Get a Quote"
         btnLink="/contact"
@@ -391,8 +397,8 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
+          title="Expeirence the Future Of <br /> Forex with FX Squad"
+          btnText="Contact Us"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"
         />
