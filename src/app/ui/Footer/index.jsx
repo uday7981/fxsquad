@@ -19,19 +19,23 @@ const copyrightLinks = [
 
 const serviceMenu = [
   {
-    title: 'UI/UX design',
+    title: 'Mt5 Administrator Support',
     href: '/service/service-details',
   },
   {
-    title: 'WP development',
+    title: 'Mt5 Manager Support',
     href: '/service/service-details',
   },
   {
-    title: 'Digital marketing',
+    title: 'Gateway & Bridge Connectivity Support',
     href: '/service/service-details',
   },
   {
-    title: 'React development',
+    title: 'Dedicated Server Support',
+    href: '/service/service-details',
+  },
+  {
+    title: 'CRM Support',
     href: '/service/service-details',
   },
 ];
@@ -47,9 +51,10 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
-                  logoSrc="/images/footer_logo.svg"
-                  logoAlt="Logo"
-                  text="Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium."
+
+
+                  text="Embrace excellence in every facet of your Forex brokerage journey."
+
                 />
                 <SocialWidget />
               </Div>
