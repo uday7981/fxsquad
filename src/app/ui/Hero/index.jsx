@@ -15,7 +15,17 @@ export default function Hero({
 }) {
   return (
     <Div className="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1" style={{ position: 'relative', backgroundColor: '#000000' }}>
+      <style>
+        {`
+          @media (max-width: 767px) {
+            .hero-video {
+              display: none !important;
+            }
+          }
+        `}
+      </style>
       <video
+        className="hero-video"
         autoPlay
         muted
         loop
