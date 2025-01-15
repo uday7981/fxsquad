@@ -5,176 +5,194 @@ import Div from "@/app/ui/Div";
 import FunFact from "@/app/ui/FunFact";
 import PageHeading from "@/app/ui/PageHeading";
 import SectionHeading from "@/app/ui/SectionHeading";
-import TeamSlider from "@/app/ui/Slider/TeamSlider";
 import Spacing from "@/app/ui/Spacing";
+import { motion } from "framer-motion";
 import aboutImg from '../../../public/images/about_img_1.jpeg'
 import aboutImg2 from '../../../public/images/about_img_2.jpeg'
 import aboutImg3 from '../../../public/images/about_img_3.jpeg'
 import aboutImg4 from '../../../public/images/about_img_4.jpeg'
 
-
-
-
 const funfaceData = [
   {
-    title: 'Global Happy Clients',
-    factNumber: '40K',
+    title: 'Technical Solutions',
+    factNumber: '24/5',
   },
   {
-    title: 'Project Completed',
-    factNumber: '50K',
+    title: 'Back-Office Support',
+    factNumber: '100%',
   },
   {
-    title: 'Team Members',
-    factNumber: '245',
+    title: 'Operations Consulting',
+    factNumber: '50+',
   },
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Global Clients',
+    factNumber: '200+',
   },
 ];
 
 export default function AboutPage() {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 }
+  };
+
+  const scaleIn = {
+    hidden: { scale: 0.8, opacity: 0 },
+    visible: { scale: 1, opacity: 1 }
+  };
+
   return (
     <>
-      {/* Start Page Heading Section */}
       <PageHeading
         title="About Us"
         bgSrc="/images/about_hero_bg.jpeg"
         pageLinkText="About Us"
       />
-      {/* End Page Heading Section */}
 
-      {/* Start About Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-5 col-lg-7">
-            <SectionHeading
-              title="Your trusted partner for business"
-              subtitle="About Our Agency"
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={fadeInUp}
+              transition={{ duration: 0.6 }}
             >
-              <Spacing lg="30" md="20" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
-              </p>
-              <Spacing lg="30" md="30" />
-              <Div className="cs-separator cs-accent_bg"></Div>
-              <Spacing lg="25" md="40" />
-            </SectionHeading>
+              <SectionHeading
+                title="Your Trusted Partner in Forex Excellence"
+                subtitle="About FXSQUAD"
+              >
+                <Spacing lg="30" md="20" />
+                <motion.p
+                  className="cs-m0"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  At FXSQUAD, we understand the complexities of the Forex Industry. Our mission is to empower Forex brokers with the tools, knowledge, and support necessary to excel in this dynamic landscape of the Forex Market.
+                </motion.p>
+                <Spacing lg="30" md="30" />
+                <motion.p
+                  className="cs-m0"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  With a proven track record of delivering excellence, we specialize in providing professional technical solutions, unparalleled backoffice support, and invaluable operational consulting services to various Forex brokers worldwide.
+                </motion.p>
+                <Spacing lg="30" md="30" />
+                <Div className="cs-separator cs-accent_bg"></Div>
+                <Spacing lg="25" md="40" />
+              </SectionHeading>
+            </motion.div>
           </Div>
           <Div className="col-lg-5 offset-xl-2">
-            <Image
-              src={aboutImg}
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-7">
-            <Image
-              src={aboutImg2}
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
-            <Spacing lg="25" md="25" />
-          </Div>
-          <Div className="col-lg-5">
-            <Image
-              src={aboutImg3}
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={scaleIn}
+              transition={{ duration: 0.6 }}
+            >
+              <Image
+                src={aboutImg}
+                alt="About FXSQUAD"
+                className="w-100 cs-radius_15"
+              />
+            </motion.div>
             <Spacing lg="25" md="25" />
           </Div>
         </Div>
       </Div>
-      <Spacing lg="75" md="55" />
-      {/* End About Section */}
 
-      {/* Start Fun Fact Section */}
-      <Div className="container">
-        <FunFact
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-          data={funfaceData}
-        />
-      </Div>
-      {/* End Fun Fact Section */}
-
-      {/* Start Why Choose Section */}
       <Spacing lg="100" md="80" />
       <Div className="container">
         <Div className="row">
           <Div className="col-xl-5 col-lg-6">
-            <Div className="cs-image_layer cs-style1">
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={scaleIn}
+              transition={{ duration: 0.6 }}
+              className="cs-image_layer cs-style1"
+            >
               <Div className="cs-image_layer_in">
                 <Image
                   src={aboutImg4}
-                  alt="About"
+                  alt="Our Vision"
                   className="w-100 cs-radius_15"
                 />
               </Div>
-            </Div>
+            </motion.div>
             <Spacing lg="0" md="40" />
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
-            <SectionHeading
-              title="Highly experienced pepole with us"
-              subtitle="Why Choose Us"
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={fadeInUp}
+              transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <Spacing lg="30" md="20" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
-              </p>
-              <Spacing lg="15" md="15" />
-              <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
-              </p>
-              <Spacing lg="30" md="30" />
-              <Div className="cs-separator cs-accent_bg"></Div>
-              <Spacing lg="25" md="0" />
-            </SectionHeading>
+              <SectionHeading
+                title="Our Vision"
+                subtitle="Driving Forex Excellence"
+              >
+                <Spacing lg="30" md="20" />
+                <motion.p
+                  className="cs-m0"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  Our vision is simple yet profound: to be the driving force behind the success stories of Forex brokers worldwide. We envision a future where every brokerage, regardless of size or experience, has access to the tools, knowledge, and support needed to excel.
+                </motion.p>
+                <Spacing lg="15" md="15" />
+                <motion.p
+                  className="cs-m0"
+                  whileHover={{ scale: 1.02 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  Every brokerage, from aspiring newcomers to established players, has a unique story waiting to be written. At FXSQUAD, we believe in being the co-authors of those stories, providing unwavering support, cutting-edge solutions, and a commitment to excellence.
+                </motion.p>
+                <Spacing lg="30" md="30" />
+                <Div className="cs-separator cs-accent_bg"></Div>
+                <Spacing lg="25" md="0" />
+              </SectionHeading>
+            </motion.div>
           </Div>
         </Div>
       </Div>
-      {/* End Why Choose Section */}
 
-      {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
-      <Div className="container">
-        <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
-          variant="cs-style1"
-        />
-        <Spacing lg="85" md="45" />
-        <TeamSlider />
-      </Div>
-      {/* End Team Section */}
+      <Spacing lg="100" md="80" />
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={fadeInUp}
+        transition={{ duration: 0.6 }}
+      >
+        <Div className="container">
+          <FunFact
+            title="Our Core Services"
+            subtitle="With deep understanding of industry nuances, we provide turn-key solutions in Forex including Technical Solutions, Back-Office Support, Operations Consulting, Brokerage Setup, and Business Development."
+            data={funfaceData}
+          />
+        </Div>
+      </motion.div>
 
-      {/* Start CTA Section */}
       <Spacing lg="150" md="80" />
-      <Div className="container">
-        <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
-          btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
-        />
-      </Div>
-      {/* End CTA Section */}
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={scaleIn}
+        transition={{ duration: 0.6 }}
+      >
+        <Div className="container">
+          <Cta
+            title="Ready to elevate your <br />Forex brokerage with <i>FXSQUAD</i>?"
+            btnText="Contact Us Today"
+            btnLink="/contact"
+            bgSrc="/images/cta_bg.jpeg"
+          />
+        </Div>
+      </motion.div>
     </>
   );
 }

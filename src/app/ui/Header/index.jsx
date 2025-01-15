@@ -108,12 +108,12 @@ export default function Header({ variant }) {
         />
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
-          <Link className="cs-site_branding" href="/">
-            <img src="/images/footer_logo.svg" alt="Logo" />
-          </Link>
+          {/* <Link className="cs-site_branding" href="/">
+            <img src="/images/fxx.png" alt="Logo" />
+          </Link> */}
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">
-              Do you have a project in your <br /> mind? Keep connect us.
+              Let's Connect
             </h2>
           </Div>
           <Div className="cs-side_header_box">
@@ -122,7 +122,7 @@ export default function Header({ variant }) {
           <Div className="cs-side_header_box">
             <Newsletter
               title="Subscribe"
-              subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+              subtitle="Your journey to Forex excellence begins here at FXSQUAD."
               placeholder="example@gmail.com"
             />
           </Div>

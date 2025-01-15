@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <>
       <PageHeading
-        title="Contact Us"
+        title="CONTACT"
         bgSrc="/images/contact_hero_bg.jpeg"
         pageLinkText="Contact"
       />
@@ -19,37 +19,58 @@ export default function ContactPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title="Do you have a project <br/>in your mind?"
-              subtitle="Getting Touch"
+              title="Let's Connect"
+              subtitle="Contact Us"
             />
             <Spacing lg="55" md="30" />
-            <ContactInfoWidget withIcon />
+            <ContactInfoWidget>
+              <Div className="cs-info_box">
+                <Icon icon="fx-squad-contact" />
+                <h3 className="cs-info_title">Phone</h3>
+                <p className="cs-info_text">+971 52 789 5656</p>
+              </Div>
+              <Div className="cs-info_box">
+                <Icon icon="fx-squad-mail" />
+                <h3 className="cs-info_title">Email</h3>
+                <p className="cs-info_text">marketing@fxsquad.ae</p>
+              </Div>
+              <Div className="cs-info_box">
+                <Icon icon="fx-squad-instagram" />
+                <h3 className="cs-info_title">Instagram</h3>
+                <p className="cs-info_text">fxsquad_mena</p>
+              </Div>
+              <Div className="cs-info_box">
+                <Icon icon="fx-squad-linkedin" />
+                <h3 className="cs-info_title">LinkedIn</h3>
+                <p className="cs-info_text">Fx Squad</p>
+              </Div>
+            </ContactInfoWidget>
             <Spacing lg="0" md="50" />
           </Div>
           <Div className="col-lg-6">
             <form action="#" className="row">
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Full Name*</label>
-                <input type="text" className="cs-form_field" />
+                <label className="cs-primary_color">First name*</label>
+                <input type="text" className="cs-form_field" placeholder="Enter First Name" />
+                <Spacing lg="20" md="20" />
+              </Div>
+              <Div className="col-sm-6">
+                <label className="cs-primary_color">Last name*</label>
+                <input type="text" className="cs-form_field" placeholder="Enter Last Name" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
                 <label className="cs-primary_color">Email*</label>
-                <input type="text" className="cs-form_field" />
+                <input type="email" className="cs-form_field" placeholder="Enter Email" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Project Type*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Mobile*</label>
-                <input type="text" className="cs-form_field" />
+                <label className="cs-primary_color">Phone*</label>
+                <input type="tel" className="cs-form_field" placeholder="Enter Phone" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-12">
-                <label className="cs-primary_color">Mobile*</label>
+                <label className="cs-primary_color">Leave a comment here</label>
                 <textarea
                   cols="30"
                   rows="7"
@@ -59,7 +80,7 @@ export default function ContactPage() {
               </Div>
               <Div className="col-sm-12">
                 <button className="cs-btn cs-style1">
-                  <span>Send Message</span>
+                  <span>Submit</span>
                   <Icon icon="bi:arrow-right" />
                 </button>
               </Div>
@@ -67,7 +88,7 @@ export default function ContactPage() {
           </Div>
         </Div>
       </Div>
-      <Spacing lg="150" md="80" />
+      {/* <Spacing lg="150" md="80" />
       <Div className="cs-google_map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd"
@@ -75,7 +96,7 @@ export default function ContactPage() {
           title="Google Map"
         />
       </Div>
-      <Spacing lg="50" md="40" />
+      <Spacing lg="50" md="40" /> */}
     </>
   );
 }

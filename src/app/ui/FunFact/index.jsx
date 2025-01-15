@@ -23,7 +23,7 @@ export default function FunFact({ variant, title, subtitle, data }) {
                 {item.factNumber}
               </Div>
               <Div className="cs-funfact_text">
-                <span className="cs-accent_color">+</span>
+                <span className="cs-accent_color"></span>
                 <p>{item.title}</p>
               </Div>
             </Div>

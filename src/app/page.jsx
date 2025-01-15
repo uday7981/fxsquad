@@ -17,32 +17,32 @@ import Card from './ui/Card';
 
 // Hero Social Links
 const heroSocialLinks = [
-  {
-    name: 'Behance',
-    links: '/',
-  },
-  {
-    name: 'Twitter',
-    links: '/',
-  },
+  // {
+  //   name: 'Behance',
+  //   links: '/',
+  // },
+  // {
+  //   name: 'Twitter',
+  //   links: '/',
+  // },
 ];
 // FunFact Data
 const funfaceData = [
   {
-    title: 'Global Happy Clients',
-    factNumber: '40K',
+    title: 'Technical Solutions',
+    factNumber: '24/5',
   },
   {
-    title: 'Project Completed',
-    factNumber: '50K',
+    title: 'Back-Office Support',
+    factNumber: '100%',
   },
   {
-    title: 'Team Members',
-    factNumber: '245',
+    title: 'Operations Consulting',
+    factNumber: '50+',
   },
   {
-    title: 'Digital products',
-    factNumber: '550',
+    title: 'Global Clients',
+    factNumber: '200+',
   },
 ];
 // Portfolio Data
@@ -89,7 +89,7 @@ export default function Home() {
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
-        socialLinksHeading="Follow Us"
+        // socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
         videoUrl="/public/video/vi.mp4"
       />
@@ -99,8 +99,8 @@ export default function Home() {
       <div className="container">
         <FunFact
           variant="cs-type1"
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          title="Our Core Services"
+          subtitle="With deep understanding of industry nuances, we provide turn-key solutions in Forex including Technical Solutions, Back-Office Support, Operations Consulting, Brokerage Setup, and Business Development."
           data={funfaceData}
         />
       </div>
