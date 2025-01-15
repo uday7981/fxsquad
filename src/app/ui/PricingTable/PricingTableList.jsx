@@ -8,10 +8,10 @@ export default function PricingTableList() {
   const [tab, setTab] = useState('monthly')
   return (
     <Section className="position-relative">
-      <ul className="cs-tab_links cs-style1 cs-mp0 cs-primary_font">
+      {/* <ul className="cs-tab_links cs-style1 cs-mp0 cs-primary_font">
         <li className={tab === 'monthly' ? "active" : ""} onClick={() => setTab('monthly')}>Monthly</li>
         <li className={tab === 'yearly' ? "active" : ""} onClick={() => setTab('yearly')}>Yearly</li>
-      </ul>
+      </ul> */}
       <Section className="row">
         <Section className="col-lg-4">
           {tab === 'monthly' && (
@@ -27,7 +27,7 @@ export default function PricingTableList() {
                 'Backup & recovery setup'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           {tab === 'yearly' && (
@@ -42,7 +42,7 @@ export default function PricingTableList() {
                 'Server monitoring'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           <Spacing lg='25' md='25' />
@@ -60,7 +60,7 @@ export default function PricingTableList() {
                 'Trading password management'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           {tab === 'yearly' && (
@@ -75,7 +75,7 @@ export default function PricingTableList() {
                 'Trading password management'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           <Spacing lg='25' md='25' />
@@ -93,7 +93,7 @@ export default function PricingTableList() {
                 'Detailed reporting'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           {tab === 'yearly' && (
@@ -108,7 +108,7 @@ export default function PricingTableList() {
                 'Detailed reporting'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           <Spacing lg='25' md='25' />
@@ -126,7 +126,7 @@ export default function PricingTableList() {
                 'System updates & patches'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           {tab === 'yearly' && (
@@ -141,7 +141,7 @@ export default function PricingTableList() {
                 'System updates & patches'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           <Spacing lg='25' md='25' />
@@ -160,7 +160,7 @@ export default function PricingTableList() {
                 'Risk management tools'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           {tab === 'yearly' && (
@@ -175,7 +175,7 @@ export default function PricingTableList() {
                 'Client support training'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           <Spacing lg='25' md='25' />
@@ -193,7 +193,7 @@ export default function PricingTableList() {
                 'Performance monitoring'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           {tab === 'yearly' && (
@@ -208,7 +208,7 @@ export default function PricingTableList() {
                 'Performance monitoring'
               ]}
               btnText='Contact Us'
-              btnLink=''
+              btnLink='/contact'
             />
           )}
           <Spacing lg='25' md='25' />

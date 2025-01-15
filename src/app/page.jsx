@@ -49,27 +49,39 @@ const funfaceData = [
 const portfolioData = [
   {
     title: 'Industry Pioneers',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_1.jpeg',
+    href: '',
+    src: '/images/in.jpg',
+    width: 400,
+    height: 300,
+    loading: "eager",
+    priority: true
   },
   {
     title: 'Innovative Solutions',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_2.jpeg',
+    href: '',
+    src: '/images/inn.jpg',
+    width: 400,
+    height: 300,
+    loading: "eager",
+    priority: true
   },
   {
     title: 'Tailored for You​',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_0.jpg',
+    href: '',
+    src: '/images/tailored.jpg',
+    width: 400,
+    height: 300,
+    loading: "eager",
+    priority: true
   },
   {
     title: 'Trust and Reliability',
-    subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
-    src: '/images/portfolio_3.jpeg',
+    href: '',
+    src: '/images/tr.jpg',
+    width: 400,
+    height: 300,
+    loading: "eager",
+    priority: true
   },
 ];
 
@@ -115,8 +127,8 @@ export default function Home() {
             <SectionHeading
               title="Global Forex License Regulations"
               subtitle="Regulatory Compliance"
-              btnText="Learn More"
-              btnLink="/regulations"
+              btnText=""
+              btnLink=""
             />
             <Div className="cs-regulation_text">
               <p>The world of Forex trading is vast and complex, requiring strict adherence to regulations to ensure fair practices and protect investors. Obtaining a Forex license is a critical step for any business looking to operate in this space.</p>
@@ -240,7 +252,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="MT5 Manager Support"
-                    link="/service/service-details"
+                    link=""
                     src="/images/service_1.jpeg"
                     alt="Service"
                   />
@@ -250,7 +262,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="CRM Support"
-                    link="/service/service-details"
+                    link=""
                     src="/images/service_2.jpeg"
                     alt="Service"
                   />
@@ -259,8 +271,8 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Trade Copier Support"
-                    link="/service/service-details"
-                    src="/images/service_3.jpeg"
+                    link=""
+                    src="/images/sticks.png"
                     alt="Service"
                   />
                   <Spacing lg="0" md="30" />
@@ -269,7 +281,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Dedicated Server Support"
-                    link="/service/service-details"
+                    link=""
                     src="/images/service_4.jpeg"
                     alt="Service"
                   />
@@ -388,10 +400,10 @@ export default function Home() {
       {/* End MovingText Section */}
 
       {/* Start LogoList Section */}
-      <Div className="container">
+      {/* <Div className="container">
         <LogoList />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End LogoList Section */}
 
       {/* Start CTA Section */}
