@@ -15,11 +15,11 @@ export default function ContactInfoWidget({ withIcon, title }) {
           </a>
         </li>
         <li>
-          <a href="mailto:marketing@fxsquad.ae">
+          <a href="mailto:dipen@fxsquad.ae">
             <span className='cs-accent_color' style={{ marginRight: '10px' }}>
               <Icon icon="mdi:envelope" />
             </span>
-            marketing@fxsquad.ae
+            dipen@fxsquad.ae
           </a>
         </li>
         <li>

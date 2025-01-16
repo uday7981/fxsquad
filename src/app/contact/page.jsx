@@ -32,7 +32,7 @@ export default function ContactPage() {
               <Div className="cs-info_box">
                 <Icon icon="fx-squad-mail" />
                 <h3 className="cs-info_title">Email</h3>
-                <p className="cs-info_text">marketing@fxsquad.ae</p>
+                <p className="cs-info_text">dipen@fxsquad.ae</p>
               </Div>
               <Div className="cs-info_box">
                 <Icon icon="fx-squad-instagram" />

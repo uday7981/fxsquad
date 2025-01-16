@@ -1,4 +1,4 @@
-// File: /Users/udaykiran/Downloads/arino-creative-agency-nextjs-template-2024-05-17-04-01-53-utc (1)/fxsquad/src/app/about/page.jsx
+// File: /Users/udaykiran/Downloads/fxsquad/fxsquad/src/app/about/page.jsx
 import * as entry from '../../../../src/app/about/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
