@@ -23,7 +23,7 @@ const serviceMenu = [
     href: '/service/service-details',
   },
   {
-    title: 'Mt5 Manager Support',
+    title: 'Mt5 Admin Configuration',
     href: '/service/service-details',
   },
   {

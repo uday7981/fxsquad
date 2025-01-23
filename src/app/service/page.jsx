@@ -34,7 +34,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title="MT5 Manager Support"
+                    title="MT5 Admin Configuration"
                     link=""
                     src="/images/service_1.jpeg"
                     alt="Service"
