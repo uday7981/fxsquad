@@ -14,6 +14,7 @@ import TimelineSlider from '@/app/ui/Slider/TimelineSlider';
 import Spacing from '@/app/ui/Spacing';
 import VideoModal from '@/app/ui/VideoModal';
 import Card from './ui/Card';
+import Script from 'next/script';
 
 // Hero Social Links
 const heroSocialLinks = [
@@ -88,6 +89,8 @@ const portfolioData = [
 export default function Home() {
   return (
     <>
+      <Script src="//code.tidio.co/yrd16nsnomqrdm8nvdvdc8ofkfxy4nvz.js" strategy="afterInteractive" />
+
       {/* Start Hero Section */}
       <Hero
         title="Effective <br/> Technical <br/> Solutions in the <br/> Forex Market"
