@@ -50,7 +50,7 @@ export default function PricingTableList() {
         <Section className="col-lg-4">
           {tab === 'monthly' && (
             <PricingTable
-              title='MT5 Manager Support'
+              title='MT5 Admin Configuration'
               features={[
                 'Monitor client database & orders',
                 'Detailed manager training',
@@ -65,7 +65,7 @@ export default function PricingTableList() {
           )}
           {tab === 'yearly' && (
             <PricingTable
-              title='MT5 Manager Support'
+              title='MT5 Admin Configuration'
               features={[
                 'Monitor client database & orders',
                 'Detailed manager training',
