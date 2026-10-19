@@ -4,7 +4,6 @@ import Div from '../Div';
 import Link from 'next/link';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Newsletter from '../Widget/Newsletter';
-import SocialWidget from '../Widget/SocialWidget';
 
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
@@ -125,9 +124,6 @@ export default function Header({ variant }) {
               subtitle="Your journey to Forex excellence begins here at FXSQUAD."
               placeholder="example@gmail.com"
             />
-          </Div>
-          <Div className="cs-side_header_box">
-            <SocialWidget />
           </Div>
         </Div>
       </Div>

@@ -32,22 +32,7 @@ export default function ContactPage() {
               <Div className="cs-info_box">
                 <Icon icon="fx-squad-contact" />
                 <h3 className="cs-info_title">Phone</h3>
-                <p className="cs-info_text">+971 52 789 5656</p>
-              </Div>
-              <Div className="cs-info_box">
-                <Icon icon="fx-squad-mail" />
-                <h3 className="cs-info_title">Email</h3>
-                <p className="cs-info_text">dipen@fxsquad.ae</p>
-              </Div>
-              <Div className="cs-info_box">
-                <Icon icon="fx-squad-instagram" />
-                <h3 className="cs-info_title">Instagram</h3>
-                <p className="cs-info_text">fxsquad_mena</p>
-              </Div>
-              <Div className="cs-info_box">
-                <Icon icon="fx-squad-linkedin" />
-                <h3 className="cs-info_title">LinkedIn</h3>
-                <p className="cs-info_text">Fx Squad</p>
+                <p className="cs-info_text">+971 52 528 6484</p>
               </Div>
             </ContactInfoWidget>
             <Spacing lg="0" md="50" />

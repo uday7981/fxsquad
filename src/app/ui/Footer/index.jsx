@@ -3,7 +3,6 @@ import Div from '../Div';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import MenuWidget from '../Widget/MenuWidget';
 import Newsletter from '../Widget/Newsletter';
-import SocialWidget from '../Widget/SocialWidget';
 import TextWidget from '../Widget/TextWidget';
 
 const copyrightLinks = [
@@ -51,12 +50,8 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
                 <TextWidget
-
-
                   text="Embrace excellence in every facet of your Forex brokerage journey."
-
                 />
-                <SocialWidget />
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">
