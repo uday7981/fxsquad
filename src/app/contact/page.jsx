@@ -25,6 +25,11 @@ export default function ContactPage() {
             <Spacing lg="55" md="30" />
             <ContactInfoWidget>
               <Div className="cs-info_box">
+                <Icon icon="mdi:map-marker" />
+                <h3 className="cs-info_title">Office</h3>
+                <p className="cs-info_text">510, Technohub 4, Silicon Oasis Techno Hub, Dubai Silicon Oasis, Dubai, U.A.E</p>
+              </Div>
+              <Div className="cs-info_box">
                 <Icon icon="fx-squad-contact" />
                 <h3 className="cs-info_title">Phone</h3>
                 <p className="cs-info_text">+971 52 789 5656</p>

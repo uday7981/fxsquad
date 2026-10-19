@@ -7,6 +7,19 @@ export default function ContactInfoWidget({ withIcon, title }) {
       {title && <h2 className="cs-widget_title">{title}</h2>}
       <ul className="cs-menu_widget cs-style1 cs-mp0">
         <li>
+          <address style={{ display: 'flex', alignItems: 'flex-start', fontStyle: 'normal', marginBottom: 0, lineHeight: 1.5 }}>
+            <span className='cs-accent_color' style={{ marginRight: '10px', flexShrink: 0, marginTop: '4px' }}>
+              <Icon icon="mdi:map-marker" />
+            </span>
+            <span>
+              510, Technohub 4,<br />
+              Silicon Oasis Techno Hub,<br />
+              Dubai Silicon Oasis,<br />
+              Dubai, U.A.E
+            </span>
+          </address>
+        </li>
+        <li>
           <a href="tel:+97152789565">
             <span className='cs-accent_color' style={{ marginRight: '10px' }}>
               <Icon icon="material-symbols:add-call-rounded" />
